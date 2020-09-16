@@ -1,0 +1,254 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+body{
+   
+    background-color: #111111;
+    
+}
+
+
+
+/* <===START=============img==================name==========================> */
+
+
+
+#yellow-box{
+    background-color: #FFB400;
+    position: absolute;
+    height: 200%;
+    width: 100%;
+    transform: rotate(-15deg);
+    left: -85%;
+    top: -10%;
+    box-shadow: 10px 50px 60px 60px #FFB400;
+}
+
+
+img{
+    position: absolute;
+    width: 35vw;
+    height: 90vh;
+    margin: 20px;
+    margin-top: 33px;
+        border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #888888;
+   
+}
+
+.name-box{
+    position: absolute;
+       font-size: 22px;
+    font-weight: 500;
+  top: 30%;
+  left: 40%;
+  margin: 0px 150px  0px 40px;
+}
+
+.name-box h1 span{
+    color: #FFB400;
+    /* text-shadow: 2px 2px 3px  #888888; */
+}
+
+.btn{
+background-color:#FFB400;
+border: 0px;
+border-radius: 50px;
+text-align: center;
+font-size: 22px;
+width: 220px;
+height: 60px;
+margin: 50px 12px 12px 0px;
+
+/* box-shadow: 0px 0px 6px 0px #888888; */
+}
+
+
+
+/* <===START=================nav bar container========================> */
+
+.nav-container{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    }
+
+.nav-container ul{
+    list-style: none;
+    }
+
+.nav-container ul li {
+    background-color: #2B2A2A;
+margin: 15px;
+    border-radius: 50%;
+}
+
+.nav-container ul li a{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+}
+
+
+.nav-container ul li.active{
+    background-color: #FFB400;
+        box-shadow: 0px 0px 10px 0px #888888;
+}
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    *{
+    
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    body{
+       
+        background-color: #111111
+    }
+
+.box-container{
+    position: absolute;
+    margin: 0 auto;
+   
+ 
+}
+
+         .img{
+           
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 0px #888888;
+            
+
+        }
+
+
+        .name-box{
+            text-align: center;
+           font-size: 20px;
+           width: 50px;
+           position: relative;
+          
+
+        }
+
+
+        .name-box h1 span{
+            color: #FFB400;
+            
+            /* text-shadow: 2px 2px 3px  #888888; */
+        }
+
+        .name-box h1{
+            font-size: 30px;
+        }
+
+        .name-box {
+            font-size: 22px;
+            font-weight: 400;
+        }
+        
+        .btn{
+        background-color:#FFB400;
+        border: 0px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 22px;
+        width: 220px;
+        height: 60px;
+        margin: 50px 12px 12px 0px;
+                /* box-shadow: 0px 0px 6px 0px #888888; */
+        }
+
+
+        #yellow-box{
+            display: none;
+         }
+
+        .nav-container{
+            display: none;
+        }
+
+
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+  
+         .img{
+           
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 0px #888888;
+            
+
+        }
+
+
+        .name-box{
+            text-align: center;
+           font-size: 20px;
+           width: 400px;
+           position: relative;
+          left: -18%;
+          margin-top: 55%;
+
+        }
+
+
+        .name-box h1 span{
+            color: #FFB400;
+            
+            /* text-shadow: 2px 2px 3px  #888888; */
+        }
+
+        .name-box h1{
+            font-size: 30px;
+        }
+
+        .name-box {
+            font-size: 22px;
+            font-weight: 0;
+        }
+        
+        .btn{
+        background-color:#FFB400;
+        border: 0px;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 22px;
+        width: 220px;
+        height: 60px;
+        margin: 30px 12px 12px 0px;
+                /* box-shadow: 0px 0px 6px 0px #888888; */
+        }
+
+
+        #yellow-box{
+            display: none;
+         }
+
+        .nav-container{
+            display: none;
+        }
+
+
+  }
